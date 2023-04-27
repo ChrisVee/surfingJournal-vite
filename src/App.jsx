@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import Card from "./components/Card"
 import Nav from "./components/Nav"
-import data from "/data"
+import data from "./data"
 
 export default function App() {
 
