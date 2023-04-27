@@ -12,7 +12,7 @@ export default function Card(props) {
             </div>
             <div className="card-information">
                 <div className="location--container">
-                    <img className="location--icon" src="./images/locationIcon.png" />
+                    <img className="location--icon" src="/images/locationIcon.png" />
                     <p className="location">{props.location}</p>
                     <p className="googleMapsLocation">
                         <a href={props.googleMapsUrl}>
